@@ -6,7 +6,7 @@ Hi, I'm @inafontan
 * https://inafontan.github.io/CuentaPalabras/
 * https://inafontan.github.io/ventadewhatsapp/
 * https://inafontan.github.io/InstitutoUda/
-* https://inafontan.github.io/Honey/
+* https://inafontan.github.io/Miel/
 * https://inafontan.github.io/IfPasteleria/
 
 <!---
