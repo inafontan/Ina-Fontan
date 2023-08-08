@@ -1,7 +1,9 @@
-Hi, I'm Ina Fontán
-I am interested in everything related to design.
+Hi, I'm Ina Fontán, and I am interested in everything related to design.
+
 I finished Web Development, JavaScript and Front-end React Development at CoderHouse.
+
 Now I am doing the UX/UI Design course at the Accenture Foundation, to then specialize in everything that is Graphic Design and programming.
+
 These are my published projects:
 * https://inafontan.github.io/CuentaPalabras/
 * https://inafontan.github.io/ventadewhatsapp/
