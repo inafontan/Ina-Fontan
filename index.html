@@ -4,112 +4,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/estilos.css" />
-    <title>Mi Portafolio</title>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <title>INA FONTÁN</title>
 </head>
+
 <body>
-
 <header>
-    <h1>Ina Fontán - Proyectos realizados</h1>
+    <nav class="navbar">
+            <a href="index.html"><h1>INA FONTÁN</h1></a> 
+        <ul class="nav-links">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="servicios.html">SERVICIOS</a></li>
+            <li><a href="sobremi.html">SOBRE MI</a></li>
+            <li><a href="proyectos.html">PROYECTOS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
 </header>
+    <!-- ACÁ COMIENZA EL CONTENIDO DE LA WEB-->
+ <!-- SECCION SERVICIOS -->
+ <h2>NUESTROS SERVICIOS</h2>
+ <section class="services-section">
+    <div class="services-grid">
+        <!-- SERVICIO 1 -->
+        <div class="service-item">
+            <div class="service-card">
+                <div class="service-card-front" style="background-image: url('./IMAGENES/bb662ed1290a63d1df6d84fc8ac51fc8.jpg');">
+                    <h4>DESARROLLO WEB - UX/UI</h4>
+                </div>
+                <div class="service-card-back">
+                    <p>Descripción breve del servicio.</p>
+                </div>
+            </div>
+        </div>
+        <!-- SERVICIO 2 -->
+        <div class="service-item">
+            <div class="service-card">
+                <div class="service-card-front" style="background-image: url('./IMAGENES/Brand\ board.png');">
+                    <h4>DESARROLLO DE MARCA E IDENTIDAD CORPORATIVA</h4>
+            </div>
+                <div class="service-card-back">
+                    <p>Descripción breve del servicio.</p>
+                </div>
+            </div>
+        </div>
+        <!-- SERVICIO 3 -->
+        <div class="service-item">
+            <div class="service-card">
+                <div class="service-card-front" style="background-image: url('./IMAGENES/DM.jpg');">
+                    <h4>MARKETING POR EMAIL Y CAMPAÑAS DIGITALES</h4>
+                </div>
+                <div class="service-card-back">
+                    <p>Descripción breve del servicio.</p>
+                </div>
+            </div>
+        </div>
+        <!-- SERVICIO 4 -->
+        <div class="service-item">
+            <div class="service-card">
+                <div class="service-card-front" style="background-image: url('./IMAGENES/CONT.jpg');">
+                    <h4>CREACIÓN DE CONTENIDO Y REDES SOCIALES</h4>
+                </div>
+                <div class="service-card-back">
+                    <p>Descripción breve del servicio.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Más tarjetas de servicio aquí -->
+    </div>
+</section>
 
-<!-- Empiezan proyectos-->
-<div class="contenedor-circulos">
-<!-- Caso de estudio UX 1-->
-<article>
-<div class="miniatura">
-    <a href="./PAGINAS/caso_practico_1.html" target="_blank">
-    <img src="./IMAGENES/PastelApp.png"  alt="Miniatura Circular"> </a>
-</div>
-<p>Caso Estudio UX</p>
-</article>
-
-<!-- Caso de estudio UX 2-->
-<article>
+ <!-- SECCIÓN SOBRE MI -->
+     <section class="section-grid" id="sobre-mi">
+        <div class="left-grid">
+            <h2>SOBRE MI</h2>
+            <h3>¡Hola! Soy Ina, diseñadora web con una gran pasión por la experiencia del usuario (UX/UI). 
+            <br> <br>
+            Comencé en el diseño web por curiosidad. Era el año 2006 y trabajaba en un instituto de formación como empleada 
+            administrativa. No teníamos un sitio web, y dije... por qué no hacer uno? Lo necesitamos! Fue ahí que investigando 
+            qué era todo esto del diseño de páginas web, como se conocía en aquel momento, nació mi primer diseño. 
+            Con los años lo fui mejorando poco a poco, siempre de manera autodidácta. 
+            Del deseo de mejorar la interacción entre las personas y lo que yo diseñaba, surgió mi interés por el diseño 
+            centrado en el usuario. </h3>
+            <div class="grid-container">        
+            <a href="sobremi.html" class="btn-leer-mas">Leer más</a>
+            </div>
+        </div>
+        <div class="right-grid">
+            <div class="image-container">
+                <img src="./IMAGENES/20240424_185905.jpg" alt="Descripción de la imagen" class="img-right">
+                <div class="overlay-text">PONE UNA IMAGEN DECENTE</div>
+            </div>
+        </div>
+            </section>
+        </div>
+    </section>
+    
+     <!-- SECCIÓN PROYECTOS -->
+    <section id="projects">
+        <h2>PROYECTOS</h2>
+                <!-- Empiezan proyectos-->
+                 <div class="contenedor-proyectos">
+    <!-- Caso de estudio UX 1-->
+    <article>
     <div class="miniatura">
-        <a href="./PAGINAS/caso_practico_2.html" target="_blank">
-        <img src="./IMAGENES/Herramientas.png"  alt="Miniatura Circular"> </a>
+        <a href="./PAGINAS/caso_practico_1.html" target="_blank">
+        <img src="./IMAGENES/PastelApp.png"  alt="Miniatura Circular"> </a>
     </div>
     <p>Caso Estudio UX</p>
     </article>
-
-<!-- Caso de estudio UX 3-->
-<article>
-    <div class="miniatura">
-        <a href="./PAGINAS/caso_practico_3.html" target="_blank">
-        <img src="./IMAGENES/Menu.png"  alt="Miniatura Circular"> </a>
+    
+    <!-- Caso de estudio UX 2-->
+    <article>
+        <div class="miniatura">
+            <a href="./PAGINAS/caso_practico_2.html" target="_blank">
+            <img src="./IMAGENES/Herramientas.png"  alt="Miniatura Circular"> </a>
+        </div>
+        <p>Caso Estudio UX</p>
+        </article>
+    
+    <!-- Caso de estudio UX 3-->
+    <article>
+        <div class="miniatura">
+            <a href="./PAGINAS/caso_practico_3.html" target="_blank">
+            <img src="./IMAGENES/Menu.png"  alt="Miniatura Circular"> </a>
+        </div>
+        <p>Caso Estudio UX</p>
+        </article>
+    
+    <!-- Proyecto 2-->
+    <article>
+    <div class="miniatura"> 
+        <a href="https://inafontan.github.io/IfPasteleria/" target="_blank">
+        <img src="./IMAGENES/IfPasteleria.png"  alt="Miniatura Circular"></a>
     </div>
-    <p>Caso Estudio UX</p>
+    <p>If Pastelería</p>
     </article>
-
-<!-- Proyecto 2-->
-<article>
-<div class="miniatura"> 
-    <a href="https://inafontan.github.io/IfPasteleria/" target="_blank">
-    <img src="./IMAGENES/IfPasteleria.png"  alt="Miniatura Circular"></a>
-</div>
-<p>If Pastelería</p>
-</article>
-
-<!-- Proyecto 3-->
-<article>
-<div class="miniatura">
-    <a href="https://inafontan.github.io/Miel/" target="_blank">
-    <img src="./IMAGENES/Cachufas.png"  alt="Miniatura Circular"> </a>
-</div>
-<p>Miel - Cachufas</p>
-</article>
-
-<!-- Proyecto 4-->
-<article>
-<div class="miniatura">
-    <a href="https://inafontan.github.io/CuentaPalabras/" target="_blank">
-    <img src="./IMAGENES/CuentaPalabras.png"  alt="Miniatura Circular"> </a>
-</div>
-<p>Cuenta Palabras</p>
-</article>
-
-<!-- Proyecto 5-->
-<article>
+    
+    <!-- Proyecto 3-->
+    <article>
     <div class="miniatura">
-        <a href="https://inafontan.github.io/ventadewhatsapp/" target="_blank">
-        <img src="./IMAGENES/VentaWhatsapp.png"  alt="Miniatura Circular"> </a>
+        <a href="https://inafontan.github.io/Miel/" target="_blank">
+        <img src="./IMAGENES/Cachufas.png"  alt="Miniatura Circular"> </a>
     </div>
-    <p>Venta de Whatsapp</p>
+    <p>Miel - Cachufas</p>
     </article>
-
-<!-- Agregar más proyectos según sea necesario -->
-</div> <!-- Div qcontiene los proyectos-->
-
-<section id="sobre-mi">
-    <h2>Sobre Mí</h2>
-    <h3>¡Hola y bienvenidos a mi espacio digital! Soy Ina, una apasionada del diseño y actualmente 
-    estoy inmersa en el fascinante mundo del Certificado Profesional de Diseño de Experiencia del Usuario de Google.</h3>
-    <h3>Mi viaje en el diseño comenzó con la búsqueda constante de maneras de mejorar la interacción entre las personas 
-    y la tecnología. Este certificado no solo es una meta profesional, sino también un paso crucial en mi búsqueda 
-    por crear experiencias significativas y centradas en el usuario.</h3>
     
-    <h3>A medida que avanzo en este programa de certificación, mi enfoque se centra en fusionar la estética con la 
-    funcionalidad, llevando la teoría del diseño de UX a la práctica de manera impactante. Mi objetivo es no solo 
-    comprender los principios fundamentales, sino también aplicarlos de manera creativa para mejorar la vida digital 
-    de las personas.</h3>
+    <!-- Proyecto 4-->
+    <article>
+    <div class="miniatura">
+        <a href="https://inafontan.github.io/CuentaPalabras/" target="_blank">
+        <img src="./IMAGENES/CuentaPalabras.png"  alt="Miniatura Circular"> </a>
+    </div>
+    <p>Cuenta Palabras</p>
+    </article>
     
-    <h3>Este espacio es mi lienzo digital, donde comparto mi viaje, reflexiones y descubrimientos en el mundo del diseño 
-    de experiencia de usuario. Acompáñame mientras exploramos las complejidades de crear productos y servicios que 
-    no solo sean visualmente atractivos, sino que también proporcionen experiencias excepcionales.</h3>
-    
-    <h3>¡Gracias por unirte a mí en esta emocionante travesía de aprendizaje y crecimiento profesional!</h3>
-    <!-- Información sobre ti, tus habilidades, experiencia, etc. -->
-</section>
+    <!-- Proyecto 5-->
+    <article>
+        <div class="miniatura">
+            <a href="https://inafontan.github.io/ventadewhatsapp/" target="_blank">
+            <img src="./IMAGENES/VentaWhatsapp.png"  alt="Miniatura Circular"> </a>
+        </div>
+        <p>Venta de Whatsapp</p>
+        </article>
+    <!-- Agregar más proyectos según sea necesario -->
+    </div> <!-- Div q contiene los proyectos-->
+    </section>
+    <br>
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto">
+        <div>
+            <h5 class="centered-text">Descubre cómo mi creatividad estratégica puede impulsar su crecimiento</h5>
+            <div class="grid-container-contacto">          
+                <a href="contacto.html" class="btn-contacto">Contacto</a>
+            </div>
+        </div>
+    </section>
 
-<section id="contacto">
-    <h2>Contacto</h2>
-    <h4>e-mail: inafontan@gmail.com</h4>
-    <!-- Información de contacto y formulario de contacto si es necesario -->
-</section>
-
-<footer>
-    <!-- Pie de página con información adicional o enlaces de redes sociales -->
+</header>
+ <!-- Pie de página con información adicional o enlaces de redes sociales -->
+ <footer id="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            INA FONTAN <br>
+            <br>
+            © 2024 Ina Fontán. All rights reserved. <br>
+        </div>
+        <div class="footer-right">
+            <!--INSTAGRAM-->
+            <div class="instagramfoot">
+                <a href="##" target="_blank">
+                    <img
+                        src="./IMAGENES/png-transparent-instagram-logo-baba-ghanoush-falafel-tabbouleh-party-battle-egg-salad-white-instagram-logo-rectangle-tuna-salad-symbol-thumbnail.png"
+                        width="40"
+                        height="40"
+                        alt="Seguinos en Instagram"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
 </footer>
 
 </body>
