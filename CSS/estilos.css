@@ -278,6 +278,13 @@ h5 {
   background-color: #49036e; /* Color de fondo al pasar el ratón */
 }
 
+.sobremi {
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 1.8; /* Ajusta el espaciado en encabezados (140%) */
+
+}
+
 /*FOOTER*/
 /* Estilo general para el footer */
 #footer {
